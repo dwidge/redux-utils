@@ -1,0 +1,27 @@
+{
+  "name": "@dwidge/redux-utils",
+  "version": "0.0.0",
+  "description": "Utils for redux",
+  "license": "BSL-1.0",
+  "author": "DWJ",
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./dist/*.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "install": "tsc",
+    "test": "tsc && node --enable-source-maps --test --test-name-pattern"
+  },
+  "peerDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "expect": "^29.7.0"
+  }
+}
