@@ -1,6 +1,6 @@
 {
   "name": "@dwidge/redux-utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utils for redux",
   "license": "BSL-1.0",
   "author": "DWJ",
@@ -14,8 +14,8 @@
     "src"
   ],
   "scripts": {
-    "install": "tsc",
-    "test": "tsc && node --enable-source-maps --test --test-name-pattern"
+    "prepare": "tsc",
+    "test": "node --enable-source-maps --test --test-name-pattern"
   },
   "peerDependencies": {
     "typescript": "^5.3.3"
